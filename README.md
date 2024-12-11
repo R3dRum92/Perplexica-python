@@ -16,9 +16,9 @@ Generate secret key:
 ```bash
 sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
 ```
-Edit searxng/settings.yml:
-Set limiter to false
-Add the following lines:
+Edit searxng/settings.yml:\\
+Set limiter to false\\
+Add the following lines:\\
 ```
 search:
   formats:
